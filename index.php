@@ -44,7 +44,7 @@
             $newVar = $variable1;
             // $newVar +=1;
             // $newVar -=1;
-            // $newVar *=5;
+            $newVar *=5;
             // $newVar /=3;
             echo "The value of new variable is ";
             echo $newVar;
@@ -96,7 +96,36 @@
         multiline 
         comment -->
         <?php
-            // echo "Hello world";
+        define('pi',3.14);
+        echo"<br>";
+            echo "Hello world";
+
+            // Data types in php
+            // 1. String
+            // 2. Integer
+            // 3. Float
+            // 4. Boolean
+            // 5. Array
+            // 6. Object
+            echo"<br> Data types <br>";
+            $var = "This is a string";
+            echo var_dump($var);
+            echo"<br>";
+
+            $var = 68;
+            echo var_dump($var);
+            echo"<br>";
+
+            $var = 67.6;
+            echo var_dump($var);
+            echo"<br>";
+
+            $var = true;
+            echo var_dump($var);
+            echo "<br>";
+            
+            echo pi;
+
         ?>
 
     </div>
