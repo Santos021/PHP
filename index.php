@@ -81,6 +81,9 @@
             // xor
             // not (!)
 
+            $myVar = (true and true);
+            echo "<br>";
+            echo var_dump ($myVar);
 
 
         ?>
