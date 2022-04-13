@@ -6,7 +6,7 @@
     // Search for a word in a string we use this function ---> strpos($StringName,"which word we searched in string");
     // Replace a word in a string we use this function ---> str_replace("which word we removed from string","which word we replaced in string",$StringName);
 
-
+    
     $str = "This is a string";
     echo $str;
     $lenn = strlen($str);
